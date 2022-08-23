@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
 }
 
 /* google font family */
@@ -23,14 +24,15 @@ body {
 }
 
 .title {
+    text-align: center;
     font-size: 40px;
     font-weight: 800px;
-    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .description {
-    text-align: justify;
-    padding: 0 100px;
+    padding: 0 50px;
+    margin-top: 30px;
 }
 
 .link-button {
@@ -49,18 +51,16 @@ body {
 }
 
 /* donation part */
-.donate-today {
+.donate-today-container {
     text-align: center;
-    margin: 100px;
-}
+    margin: 120px;
 
-.description {
-    margin-bottom: 40px;
 }
 
 .donate-amount {
     display: flex;
     justify-content: center;
+    margin: 30px;
 }
 
 .donate-amount div {
@@ -94,4 +94,63 @@ body {
     text-align: center;
     width: 70%;
     margin-top: 30px;
+}
+
+/* donate plan */
+.donate-plan-container {
+    margin-bottom: 40px;
+}
+
+.our-plans {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+
+}
+
+#plan1 {
+    display: flex;
+    align-items: center;
+    background-image: url(../icons/icon5.svg);
+    background-repeat: no-repeat;
+    background-position-y: 20px;
+    background-position-x: 50px;
+    background-size: 3em;
+    background-color: #EDF5F6;
+    height: 350px;
+    width: 360px;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+
+#plan2 {
+    display: flex;
+    align-items: center;
+    background-image: url(../icons/icon8.svg);
+    background-repeat: no-repeat;
+    background-position-y: 20px;
+    background-position-x: 50px;
+    background-size: 3em;
+    background-color: #FFEEEE;
+    height: 350px;
+    width: 360px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#plan3 {
+    display: flex;
+    align-items: center;
+    background-image: url(../icons/medicine.svg);
+    background-repeat: no-repeat;
+    background-position-y: 20px;
+    background-position-x: 50px;
+    background-size: 3em;
+    background-color: #FFF4D6;
+    height: 350px;
+    width: 360px;
+    border-radius: 5px;
+    margin: 10px;
 }
